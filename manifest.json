@@ -9,7 +9,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.nexj.com/*"],
-      "js": ["popup.js", "inj.js"],
+      "js": ["popup.js", "inj.js","jquery.js"],
       "run_at": "document_start"
     }
   ]
