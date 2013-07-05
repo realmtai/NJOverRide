@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "testOne",
+  "description": "This extension inject js",
+  "version": "1.0",
+
+  "permissions": ["https://www.nexj.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.nexj.com/*"],
+      "js": ["popup.js", "inj.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
