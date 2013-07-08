@@ -8,7 +8,7 @@
   "permissions": ["https://www.nexj.com/*"],
   "content_scripts": [
     {
-      "matches": ["https://www.nexj.com/*", "http://localhost/*"],
+      "matches": ["https://www.nexj.com/*", "http://localhost/*","http://tor-dt-ydai/*"],
       "js": ["popup.js", "inj.js","jquery.js"],
       "run_at": "document_start"
     }
