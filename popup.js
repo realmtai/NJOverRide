@@ -8,23 +8,23 @@
 // function insertJavaScript(){
 //   injectScript("inj.js");
 // }
-function insertJavaScript(jsFile){
-    var head = document.getElementsByTagName('head')[0] || document.head;
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = jsFile;
-    console.log(jsFile);
-    if(head) head.insertBefore(script, head.firstChild);
-};
+// function insertJavaScript(jsFile){
+//     var head = document.getElementsByTagName('head')[0] || document.head;
+//     var script = document.createElement('script');
+//     script.type = 'text/javascript';
+//     script.src = jsFile;
+//     console.log(jsFile);
+//     if(head) head.insertBefore(script, head.firstChild);
+// };
 
-  function insertCSSScript(jsFile){
-    var head = document.getElementsByTagName('head')[0] || document.head;
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = jsFile;
-    console.log(jsFile);
-    if(head) head.insertBefore(script, head.firstChild);
-  };
+//   function insertCSSScript(jsFile){
+//     var head = document.getElementsByTagName('head')[0] || document.head;
+//     var script = document.createElement('script');
+//     script.type = 'text/javascript';
+//     script.src = jsFile;
+//     console.log(jsFile);
+//     if(head) head.insertBefore(script, head.firstChild);
+//   };
 
 
 

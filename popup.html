@@ -8,24 +8,36 @@
         overflow-x: hidden;
       }
 
-      img {
+/*      img {
         margin: 5px;
         border: 2px solid black;
         vertical-align: middle;
         width: 75px;
         height: 75px;
-      }
+      }*/
     </style>
-
+    <script src="jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <link rel="stylesheet" href="jquery-ui.css" />
+    <script src="popup-ui.js"></script>
+    <script src="toggleswitch.js"></script>
     <!--
       - JavaScript and HTML must be in separate files: see our Content Security
       - Policy documentation[1] for details and explanation.
       -
       - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     <script src="popup.js"></script>
      -->
-    <script src="popup.js"></script>
   </head>
   <body>
+
+    <div>
+      <span>Override alert box:</span>
+      <select id="gender">
+        <option selected="selected">On</option>
+        <option>Off</option>
+      </select>
+    </div>
   </body>
 </html>
 
